@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:#f9f9f9;
+    transform-style: preserve-3d;
+
+}
+.form{
+    width: 300px;
+    padding: 30px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    border:3px solid #f0f0f0;
+    border-radius: 20px;
+    position: relative;
+    transform: perspective(1px) translateY(15%);
+    
+}
+
+.form h1{
+    margin-top: 50px;
+    margin-bottom: 5px;
+    
+}
+.form input{
+    display: block;
+    width: 100%;
+    padding:0 16px;
+    height: 44px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 15px;
+
+}
+
+.txt{
+    margin: 20px 0;
+    background-color:#efefef;
+    border-radius: 20px;
+}
+.btn{
+    margin-bottom: 20px;
+    background: #ce59f7;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.8s;
+    display: block;
+    font-size: 18px;
+}
+
+.btn:hover{
+    background: white;
+    color: #d05bf9;
+
+
+}
+.form a {
+    text-decoration: none;
+    color: #7466c0;
+}
+
+.form a:hover{
+    color: red;
+}
+
+.icon{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%; 
+    background-color: white;
+    margin: 0.3rem;
+    font-size:20px ;
+    cursor: pointer;
+}
+.fa-facebook-f{
+    color: blue;
+}
+.fa-google{
+    color: red;
+}
+.fa-yandex-international{
+    color: purple;
+}
+small{
+    opacity:0.4;
+}
